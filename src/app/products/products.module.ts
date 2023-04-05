@@ -3,8 +3,8 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { ProductsService } from './products.service';
 import { ProductsSchema } from './schemas/products';
 import { ProductsController } from './products.controller';
-import { ImportHistoryService } from 'src/import-history/import-history.service';
-import { ImportHistorySchema } from 'src/import-history/schemas/import-history';
+import { ImportHistoryService } from '../import-history/import-history.service';
+import { ImportHistorySchema } from '../import-history/schemas/import-history';
 
 @Module({
   imports: [

@@ -1,7 +1,7 @@
 # compiled output
 /dist
 /node_modules
-/src/products/import-files
+/src/app/products/import-files
 
 # Logs
 logs

@@ -5,8 +5,8 @@ import { PRODUCT_STATUS } from './constants/products.constants';
 import * as fs from 'fs';
 import * as readline from 'readline';
 import { Products } from './interface/products.interface';
-import { ImportHistory } from 'src/import-history/interface/import-history.interface';
-import { ImportHistoryService } from 'src/import-history/import-history.service';
+import { ImportHistory } from '../import-history/interface/import-history.interface';
+import { ImportHistoryService } from '../import-history/import-history.service';
 
 @Injectable()
 export class ProductsService {
